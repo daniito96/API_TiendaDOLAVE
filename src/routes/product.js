@@ -27,16 +27,16 @@ router.get('/getCategory', (req, res) =>{
 });
 
 //obtener productos de una categoría
-router.get('/:category', (req, res) =>{
-    const { category } = req.params;
-    mysqlConnection.query('SELECT * FROM product WHERE category = ?', [category], (err, rows, fields)=>{
-        if(!err){
-            res.json(rows);
-        }else{
-            console.log(err);
-        }
-    })
-});
+// router.get('/:category', (req, res) =>{
+//     const { category } = req.params;
+//     mysqlConnection.query('SELECT * FROM product WHERE category = ?', [category], (err, rows, fields)=>{
+//         if(!err){
+//             res.json(rows);
+//         }else{
+//             console.log(err);
+//         }
+//     })
+// });
 
 
 module.exports = router;
