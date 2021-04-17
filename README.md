@@ -1,4 +1,4 @@
-# TiendaDOLAVE
+# API TiendaDOLAVE
 API desarrollada para la prueba de postulación bsale
 
 El ejercicio se basó en la creación de una tienda en línea, a través de la cuál se debió comprobar que el desarrollador era capaz de interactuar con datos traídos desde un servidor, graficándolos a modo de tienda online. Este desarrolló debía contar con un buscador el cual debía traer los datos filtrados desde el servidor.
