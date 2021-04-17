@@ -30,6 +30,8 @@ La API de la tienda se desarrolló con NodeJS en conjunto con Express. La conexi
 
 (*) Estructura de Proyecto
 
+======================================================================================
+
 En product.js se desarrollaron 3 endpoints:
 
 (*)https://apitiendadolave.herokuapp.com/ endpointEspecifico
